@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.darkhax.example.neoforge.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "MixinTest"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

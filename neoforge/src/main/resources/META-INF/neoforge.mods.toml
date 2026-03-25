@@ -1,0 +1,35 @@
+modLoader = "javafml"
+license = "${mod_license}"
+issueTrackerURL = "${mod_repo}/issues"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${version}"
+displayName = "${mod_name}"
+updateJSONURL = "https://updates.blamejared.com/get?n=${mod_id}&gv=${minecraft_version}&ml=${platform}"
+displayURL = "${curse_page}"
+logoFile = "logo_${mod_id}.png"
+logoBlur = false
+credits = "This project is made possible with Patreon support from players like you. Thank you! ${patreon_patrons}"
+authors = "${mod_author}"
+description = "${mod_description}"
+
+[[mixins]]
+config = "${mod_id}.common.mixins.json"
+
+[[mixins]]
+config = "${mod_id}.neoforge.mixins.json"
+
+[[dependencies.${ mod_id }]]
+modId = "neoforge"
+type = "required"
+versionRange = "[${neoforge_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${ mod_id }]]
+modId = "minecraft"
+type = "required"
+versionRange = "${minecraft_version}"
+ordering = "NONE"
+side = "BOTH"

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.darkhax.example.common.mixin",
+  "refmap": "${mod_id}.refmap.json",
+  "compatibilityLevel": "JAVA_18",
+  "mixins": [],
+  "client": [
+    "MixinTest"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

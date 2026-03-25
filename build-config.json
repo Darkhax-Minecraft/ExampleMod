@@ -1,0 +1,40 @@
+{
+  "mod": {
+    "name": "Example",
+    "group": "net.darkhax.example",
+    "authors": [
+      "Darkhax"
+    ],
+    "id": "example",
+    "license": "ARR",
+    "description": "An example mod.",
+    "repo": "https://github.com/Darkhax-Minecraft/ExampleMod",
+    "client": false
+  },
+  "dependencies": [
+    {
+      "name": "Nature's Compass",
+      "type": "required",
+      "maven": {
+        "neoforge": "curse.maven:natures-compass-252848:7808597",
+        "fabric": "curse.maven:natures-compass-252848:7808592"
+      },
+      "curseforge": {
+        "slug": "natures-compass",
+        "id": "252848"
+      },
+      "modrinth": {
+        "slug": "natures-compass",
+        "id": "fPetb5Kh"
+      }
+    }
+  ],
+  "curseforge": {
+    "slug": "examplemod",
+    "id": "469122"
+  },
+  "modrinth": {
+    "slug": "dh-examplemod",
+    "id": "OeyGScIr"
+  }
+}
