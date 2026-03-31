@@ -15,7 +15,7 @@ pipeline {
         stage('Build') {
             steps {
                 withCredentials([
-                    file(credentialsId: 'build_secrets', variable: 'ORG_GRADLE_PROJECT_secretFileV2'),
+                    file(credentialsId: 'build_secrets_v2', variable: 'ORG_GRADLE_PROJECT_secretFileV2'),
                     file(credentialsId: 'java_keystore', variable: 'ORG_GRADLE_PROJECT_keyStore'),
                     file(credentialsId: 'gpg_key', variable: 'ORG_GRADLE_PROJECT_pgpKeyRing')
                 ]) {
