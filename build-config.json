@@ -27,6 +27,52 @@
         "slug": "natures-compass",
         "id": "fPetb5Kh"
       }
+    },
+    {
+      "name": "Collective",
+      "type": "optional",
+      "maven": {
+        "neoforge": "curse.maven:collective-342584:7813912",
+        "fabric": "curse.maven:collective-342584:7813912"
+      },
+      "curseforge": {
+        "slug": "collective",
+        "id": "342584"
+      },
+      "modrinth": {
+        "slug": "collective",
+        "id": "e0M1UDsY"
+      }
+    },
+    {
+      "name": "Resourceful Config",
+      "type": "optional",
+      "maven": {
+        "fabric": "curse.maven:resourcefulconfig-714059:7808343"
+      },
+      "curseforge": {
+        "slug": "resourceful-config",
+        "id": "714059"
+      },
+      "modrinth": {
+        "slug": "resourceful-config",
+        "id": "M1953qlQ"
+      }
+    },
+    {
+      "name": "Journey Map",
+      "type": "optional",
+      "maven": {
+        "neoforge": "curse.maven:jmap-32274:7812823"
+      },
+      "curseforge": {
+        "slug": "journeymap",
+        "id": "32274"
+      },
+      "modrinth": {
+        "slug": "journeymap",
+        "id": "lfHFW1mp"
+      }
     }
   ],
   "curseforge": {
